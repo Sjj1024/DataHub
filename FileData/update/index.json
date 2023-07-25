@@ -31,6 +31,12 @@
             "active": false,
             "notes": "这只是消息提醒，不要想太多啊<br/>但是还是很开心的",
             "openLink": "https://github.com/Sjj1024/DataHub/actions"
+        },
+        "about": {
+          "wxPayCode": "https://cdn.staticaly.com/gh/1024huijia/QingChunMeizi@master/20230720/1689847652597.6i0znxu1jdw0.webp",
+          "aliPayCode": "https://cdn.staticaly.com/gh/1024huijia/QingChunMeizi@master/20230720/1689847572913.33cz885q50m0.webp",
+          "qqChatCode": "https://cdn.staticaly.com/gh/1024huijia/QingChunMeizi@master/20230720/bf4f2af962c3a4d1ad68d4fe3a44005.7g13fdeag8g0.webp",
+          "wxChatCode": "https://cdn.staticaly.com/gh/1024huijia/QingChunMeizi@master/20230720/bb5ddfe09143dc3a91e8d3f2b8a45f9.25wgk51qzyb.webp"
         }
     }
 }

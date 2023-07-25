@@ -1,5 +1,5 @@
 {
-    "version": "v1.0.0",
+    "version": "v0.1.0",
     "notes": "更新内容：\n1.大文件上传和分享，\n2.ChatGPT集成",
     "pub_date": "2020-06-22T19:25:57Z",
     "platforms": {
@@ -23,7 +23,7 @@
     "FileHub": {
         "update": {
             "active": false,
-            "version": "v1.0.0",
+            "version": "v0.1.0",
             "notes": "更新内容：1."
         },
         "message": {

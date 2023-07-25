@@ -24,12 +24,13 @@
         "update": {
             "active": true,
             "version": "v0.1.0",
-            "notes": "更新内容：1.",
+            "notes": "更新内容：1.大文件上传和分享，<br/> 2.chatget接口对接",
             "download": "https://fanyi.baidu.com/"
         },
         "message": {
             "active": true,
-            "notes": "这只是消息提醒"
+            "notes": "这只是消息提醒，不要想太多啊<br/>但是还是很开心的",
+            "openLink": "https://github.com/Sjj1024/DataHub/actions"
         }
     }
 }

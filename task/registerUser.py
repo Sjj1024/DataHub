@@ -3,8 +3,7 @@ import requests
 import os
 import base64
 import json
-
-from task.utils.sendMsg import send_email
+from utils.sendMsg import send_email
 
 
 def get_issue(keyword):

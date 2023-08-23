@@ -1,0 +1,42 @@
+{
+    "version": "v0.0.1",
+    "notes": "更新内容：\n1.大文件上传和分享，\n2.ChatGPT集成",
+    "pub_date": "2020-06-22T19:25:57Z",
+    "platforms": {
+        "darwin-x86_64": {
+            "signature": "Content of app.tar.gz.sig",
+            "url": "https://github.com/username/reponame/releases/download/v1.0.0/app-x86_64.app.tar.gz"
+        },
+        "darwin-aarch64": {
+            "signature": "Content of app.tar.gz.sig",
+            "url": "https://github.com/username/reponame/releases/download/v1.0.0/app-aarch64.app.tar.gz"
+        },
+        "linux-x86_64": {
+            "signature": "Content of app.AppImage.tar.gz.sig",
+            "url": "https://github.com/username/reponame/releases/download/v1.0.0/app-amd64.AppImage.tar.gz"
+        },
+        "windows-x86_64": {
+            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUdmk4cHB0UzVBd2ZHcmtuUU96SVVJeGViUVZaR24wK1EzVDQ4czU5L2pDcVNTYm5TNG9FcENMVTRIaEs0Ym14VnhXV0ZFZTM2Tmdab1R1OWZmRzJhYk83azNsWTB2NUFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNjkwMjgxMDg1CWZpbGU6RmlsZUh1Yl8wLjAuMV94NjRfemgtQ04ubXNpLnppcAp3cTdWQTdEMTZ1YU1qUlE4dVNueEp0ZW5vSzIvYkorWTBmdEE4VG1XdnVMeHgxWjM2NnFnTTFRaXpiNGVleUdDcndDYXh4WExkaTRxaW1oQWZhUU1Edz09Cg==",
+            "url": "https://sjj1024.github.io/DataHub/FileData/update/FileHub_0.0.1_x64_zh-CN.msi.zip"
+        }
+    },
+    "FileHub": {
+        "update": {
+            "active": false,
+            "version": "v0.0.1",
+            "notes": "更新内容：1.大文件上传和分享，<br/> 2.chatget接口对接",
+            "download": "https://fanyi.baidu.com/"
+        },
+        "message": {
+            "active": false,
+            "notes": "这只是消息提醒，不要想太多啊<br/>但是还是很开心的",
+            "openLink": "https://github.com/Sjj1024/DataHub/actions"
+        },
+        "about": {
+          "wxPayCode": "https://cdn.staticaly.com/gh/1024huijia/QingChunMeizi@master/20230720/1689847652597.6i0znxu1jdw0.webp",
+          "aliPayCode": "https://cdn.staticaly.com/gh/1024huijia/QingChunMeizi@master/20230720/1689847572913.33cz885q50m0.webp",
+          "qqChatCode": "https://sjj1024.github.io/DataHub/FileData/config/qq.webp",
+          "wxChatCode": "https://sjj1024.github.io/DataHub/FileData/config/wxq.webp"
+        }
+    }
+}

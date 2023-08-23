@@ -114,7 +114,7 @@ def save_file_user(userName, content):
 def run():
     print("开始执行")
     # 获取issue列表：open and user
-    keywords = ["regist", "share"]
+    keywords = ["regist", "share", "dochub"]
     for k in keywords:
         get_issue(k)
 

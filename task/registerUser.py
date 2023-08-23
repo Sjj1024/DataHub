@@ -18,11 +18,11 @@ def get_issue(keyword):
     for iss in issue_list:
         # 存储用户成功后，再关闭issue
         issNum = iss.get("number")
-        # '[regist]userName:1024'
+        # '[regist]userName:1024'，Filehub用户
         if "regist" in iss.get("title"):
             userName = iss.get("title", "").replace("[regist]userName:", "")
             content = iss.get("body")
-            res = save_user(userName, content)
+            res = save_file_user(userName, content)
             if res:
                 # 关闭issue并且贴标签
                 close_issue(issNum, "closed", ["user"])
@@ -30,6 +30,18 @@ def get_issue(keyword):
             else:
                 # 发送邮件
                 send_email("注册FileHub用户失败:", f"userName: {userName}")
+        # 注册Dochub用户
+        elif "dochub" in iss.get("title"):
+            userName = iss.get("title", "").replace("[dochub]userName:", "")
+            content = iss.get("body")
+            res = save_doc_user(userName, content)
+            if res:
+                # 关闭issue并且贴标签
+                close_issue(issNum, "closed", ["user"])
+                send_email(f"注册Dochub用户成功:{userName}", f"userName: {userName}")
+            else:
+                # 发送邮件
+                send_email("注册DocHub用户失败:", f"userName: {userName}")
         # 通过分享
         elif "share" in iss.get("title"):
             # 获取类别，直接通过
@@ -55,7 +67,29 @@ def close_issue(num, state, labels):
     print(response.text)
 
 
-def save_user(userName, content):
+def save_doc_user(userName, content):
+    print("保存用户")
+    url = f"https://api.github.com/repos/Sjj1024/DataHub/contents/DocData/users/{userName}.txt"
+    base64_content = base64.b64encode(content.encode("utf-8"))
+    payload = json.dumps({
+        "message": "Register Dochub User",
+        "content": base64_content.decode("utf-8")
+    })
+    headers = {
+        'Accept': 'application/vnd.github+json',
+        'Authorization': f'Bearer {os.environ.get("TOKEN")}',
+        'X-GitHub-Api-Version': '2022-11-28',
+        'Content-Type': 'text/plain'
+    }
+    response = requests.request("PUT", url, headers=headers, data=payload).json()
+    print(response)
+    if response.get("content"):
+        return True
+    else:
+        return False
+
+
+def save_file_user(userName, content):
     print("保存用户")
     url = f"https://api.github.com/repos/Sjj1024/DataHub/contents/FileData/users/{userName}.txt"
     base64_content = base64.b64encode(content.encode("utf-8"))

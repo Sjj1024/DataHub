@@ -5,11 +5,11 @@
     "platforms": {
         "darwin-x86_64": {
             "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUdmk4cHB0UzVBd1JZQmJ0enRZcXk1N0lSUXVEZ2tyZWJQbWhXc01IM0ZGaTRpRlFyYWREQzRia0FoZHJFcEVaM3hQOHI5RXhhczJpMWxpdnFNd3NtQklwOFQ0V09icWdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzA1NzQ2NzgxCWZpbGU6RmlsZUh1Yi5hcHAudGFyLmd6CkhFMWpEV1FtVkdlbSsrTXlkdUtMc25XK2J5ZDdmNy9rQkFNWFR5R0pEYkdJWWw4dUZuZEZkR3VxaS9Ld2dVY1l0MzlRZEZDaWY5blJ0ZnVqTm91aUJnPT0K",
-            "url": "https://github.com/Sjj1024/selfHub/releases/download/untagged-a4f4b32934f0f2348407/FileHub.app.tar.gz"
+            "url": "https://1024huijia.github.io/FileHub/root/filehub/FileHub.app.tar.gz"
         },
         "darwin-aarch64": {
             "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUdmk4cHB0UzVBd1JZQmJ0enRZcXk1N0lSUXVEZ2tyZWJQbWhXc01IM0ZGaTRpRlFyYWREQzRia0FoZHJFcEVaM3hQOHI5RXhhczJpMWxpdnFNd3NtQklwOFQ0V09icWdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzA1NzQ2NzgxCWZpbGU6RmlsZUh1Yi5hcHAudGFyLmd6CkhFMWpEV1FtVkdlbSsrTXlkdUtMc25XK2J5ZDdmNy9rQkFNWFR5R0pEYkdJWWw4dUZuZEZkR3VxaS9Ld2dVY1l0MzlRZEZDaWY5blJ0ZnVqTm91aUJnPT0K",
-            "url": "https://github.com/Sjj1024/selfHub/releases/download/untagged-a4f4b32934f0f2348407/FileHub.app.tar.gz"
+            "url": "https://1024huijia.github.io/FileHub/root/filehub/FileHub.app.tar.gz"
         },
         "linux-x86_64": {
             "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUdmk4cHB0UzVBd1hxUm5hN2FqUmd1dGdkY1E4WjlmZUNrZVB5MFgzREw1SitRcFdyV29Vd0RFWkNMRklJZEhpVlZOUUpEMCtMU2NVRTJ6UENtZmphaWtaTW4zbHJLRHdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzA1NzQ3MzIzCWZpbGU6ZmlsZS1odWJfMC4wLjJfYW1kNjQuQXBwSW1hZ2UudGFyLmd6CmV4K1NlSUFPaUdvNEd1RU81K0E3S2RZalNPTGpyUFFMdWc0TmRVcS9rUSt0UTFiODV0YkgwYm5sbWFoTHJRL1dXS0tqdFA5bDczY0l5T1p3MlgzT0RnPT0K",
@@ -17,7 +17,7 @@
         },
         "windows-x86_64": {
             "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUdmk4cHB0UzVBd2VzUmJXNkRzS0pKNHdHQ0tOYmhXMndDcytSdVQ5aHV5WE9SRkpINGwrWm5yUzJNRmhrNEFnajZSRXpjTllBV1NTam1jZVEvZFhuRWNscHpoUDV3RVFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzA1NzQ3NDMwCWZpbGU6RmlsZUh1Yl8wLjAuMl94NjRfemgtQ04ubXNpLnppcAoxb1dNVzkzbThLaHpZVXN5ZHFqTHVEZWVDTDlvWlI5ZER3VTA0cS9oNTNBQmN1VWZENGFBRFE3Wjdqeml4bU5aK0l4WUUxUldxVkJRa3E4cnd0ajZDUT09Cg==",
-            "url": "https://github.com/Sjj1024/selfHub/releases/download/untagged-a4f4b32934f0f2348407/FileHub_0.0.2_x64_zh-CN.msi.zip"
+            "url": "https://1024huijia.github.io/FileHub/root/filehub/FileHub_0.0.2_x64_zh-CN.msi.zip"
         }
     },
     "FileHub": {

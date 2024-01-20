@@ -1,30 +1,30 @@
 {
-    "version": "v0.0.1",
-    "notes": "更新内容：\n1.大文件上传和分享，\n2.ChatGPT集成",
-    "pub_date": "2020-06-22T19:25:57Z",
+    "version": "v0.0.2",
+    "notes": "更新内容：\n1.图床链接设置失败问题，\n2.全选文件列表",
+    "pub_date": "2024-01-20T19:25:57Z",
     "platforms": {
         "darwin-x86_64": {
-            "signature": "Content of app.tar.gz.sig",
-            "url": "https://github.com/username/reponame/releases/download/v1.0.0/app-x86_64.app.tar.gz"
+            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUdmk4cHB0UzVBd1JZQmJ0enRZcXk1N0lSUXVEZ2tyZWJQbWhXc01IM0ZGaTRpRlFyYWREQzRia0FoZHJFcEVaM3hQOHI5RXhhczJpMWxpdnFNd3NtQklwOFQ0V09icWdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzA1NzQ2NzgxCWZpbGU6RmlsZUh1Yi5hcHAudGFyLmd6CkhFMWpEV1FtVkdlbSsrTXlkdUtMc25XK2J5ZDdmNy9rQkFNWFR5R0pEYkdJWWw4dUZuZEZkR3VxaS9Ld2dVY1l0MzlRZEZDaWY5blJ0ZnVqTm91aUJnPT0K",
+            "url": "https://github.com/Sjj1024/selfHub/releases/download/untagged-a4f4b32934f0f2348407/FileHub.app.tar.gz"
         },
         "darwin-aarch64": {
-            "signature": "Content of app.tar.gz.sig",
-            "url": "https://github.com/username/reponame/releases/download/v1.0.0/app-aarch64.app.tar.gz"
+            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUdmk4cHB0UzVBd1JZQmJ0enRZcXk1N0lSUXVEZ2tyZWJQbWhXc01IM0ZGaTRpRlFyYWREQzRia0FoZHJFcEVaM3hQOHI5RXhhczJpMWxpdnFNd3NtQklwOFQ0V09icWdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzA1NzQ2NzgxCWZpbGU6RmlsZUh1Yi5hcHAudGFyLmd6CkhFMWpEV1FtVkdlbSsrTXlkdUtMc25XK2J5ZDdmNy9rQkFNWFR5R0pEYkdJWWw4dUZuZEZkR3VxaS9Ld2dVY1l0MzlRZEZDaWY5blJ0ZnVqTm91aUJnPT0K",
+            "url": "https://github.com/Sjj1024/selfHub/releases/download/untagged-a4f4b32934f0f2348407/FileHub.app.tar.gz"
         },
         "linux-x86_64": {
-            "signature": "Content of app.AppImage.tar.gz.sig",
-            "url": "https://github.com/username/reponame/releases/download/v1.0.0/app-amd64.AppImage.tar.gz"
+            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUdmk4cHB0UzVBd1hxUm5hN2FqUmd1dGdkY1E4WjlmZUNrZVB5MFgzREw1SitRcFdyV29Vd0RFWkNMRklJZEhpVlZOUUpEMCtMU2NVRTJ6UENtZmphaWtaTW4zbHJLRHdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzA1NzQ3MzIzCWZpbGU6ZmlsZS1odWJfMC4wLjJfYW1kNjQuQXBwSW1hZ2UudGFyLmd6CmV4K1NlSUFPaUdvNEd1RU81K0E3S2RZalNPTGpyUFFMdWc0TmRVcS9rUSt0UTFiODV0YkgwYm5sbWFoTHJRL1dXS0tqdFA5bDczY0l5T1p3MlgzT0RnPT0K",
+            "url": "https://github.com/Sjj1024/selfHub/releases/download/untagged-a4f4b32934f0f2348407/file-hub_0.0.2_amd64.AppImage.tar.gz"
         },
         "windows-x86_64": {
-            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUdmk4cHB0UzVBd2ZHcmtuUU96SVVJeGViUVZaR24wK1EzVDQ4czU5L2pDcVNTYm5TNG9FcENMVTRIaEs0Ym14VnhXV0ZFZTM2Tmdab1R1OWZmRzJhYk83azNsWTB2NUFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNjkwMjgxMDg1CWZpbGU6RmlsZUh1Yl8wLjAuMV94NjRfemgtQ04ubXNpLnppcAp3cTdWQTdEMTZ1YU1qUlE4dVNueEp0ZW5vSzIvYkorWTBmdEE4VG1XdnVMeHgxWjM2NnFnTTFRaXpiNGVleUdDcndDYXh4WExkaTRxaW1oQWZhUU1Edz09Cg==",
-            "url": "https://sjj1024.github.io/DataHub/FileData/update/FileHub_0.0.1_x64_zh-CN.msi.zip"
+            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUdmk4cHB0UzVBd2VzUmJXNkRzS0pKNHdHQ0tOYmhXMndDcytSdVQ5aHV5WE9SRkpINGwrWm5yUzJNRmhrNEFnajZSRXpjTllBV1NTam1jZVEvZFhuRWNscHpoUDV3RVFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzA1NzQ3NDMwCWZpbGU6RmlsZUh1Yl8wLjAuMl94NjRfemgtQ04ubXNpLnppcAoxb1dNVzkzbThLaHpZVXN5ZHFqTHVEZWVDTDlvWlI5ZER3VTA0cS9oNTNBQmN1VWZENGFBRFE3Wjdqeml4bU5aK0l4WUUxUldxVkJRa3E4cnd0ajZDUT09Cg==",
+            "url": "https://github.com/Sjj1024/selfHub/releases/download/untagged-a4f4b32934f0f2348407/FileHub_0.0.2_x64_zh-CN.msi.zip"
         }
     },
     "FileHub": {
         "update": {
             "active": false,
-            "version": "v0.0.1",
-            "notes": "更新内容：1.大文件上传和分享，<br/> 2.chatget接口对接",
+            "version": "v0.0.2",
+            "notes": "更新内容：1.图床链接设置失败问题，<br/> 2.修复全选文件列表",
             "download": "https://fanyi.baidu.com/"
         },
         "message": {
@@ -33,8 +33,8 @@
             "openLink": "https://github.com/Sjj1024/DataHub/actions"
         },
         "about": {
-          "wxPayCode": "https://cdn.staticaly.com/gh/1024huijia/QingChunMeizi@master/20230720/1689847652597.6i0znxu1jdw0.webp",
-          "aliPayCode": "https://cdn.staticaly.com/gh/1024huijia/QingChunMeizi@master/20230720/1689847572913.33cz885q50m0.webp",
+          "wxPayCode": "https://jsd.cdn.zzko.cn/gh/1024huijia/QingChunMeizi@master/20230720/1689847652597.6i0znxu1jdw0.webp",
+          "aliPayCode": "https://jsd.cdn.zzko.cn/gh/1024huijia/QingChunMeizi@master/20230720/1689847572913.33cz885q50m0.webp",
           "qqChatCode": "https://sjj1024.github.io/DataHub/FileData/config/qq.webp",
           "wxChatCode": "https://sjj1024.github.io/DataHub/FileData/config/wxq.webp"
         }
